@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/thought")
-@CrossOrigin(origins = "${app.cors.allowed-origin}")
+@CrossOrigin(origins = "*")
 public class ThoughtController {
 
     private static final List<String> THOUGHTS = List.of(
