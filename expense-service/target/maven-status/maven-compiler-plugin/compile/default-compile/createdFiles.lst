@@ -1,0 +1,5 @@
+com\pulsehub\expenseservice\expense_service\controller\ExpenseController.class
+com\pulsehub\expenseservice\expense_service\repo\ExpenseRepository.class
+com\pulsehub\expenseservice\expense_service\ExpenseServiceApplication.class
+com\pulsehub\expenseservice\expense_service\model\Expense.class
+com\pulsehub\expenseservice\expense_service\service\ExpenseService.class

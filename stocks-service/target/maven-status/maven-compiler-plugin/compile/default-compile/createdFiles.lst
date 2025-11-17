@@ -1,0 +1,6 @@
+com\pulsehub\stocksservice\stocks_service\client\AiClient.class
+com\pulsehub\stocksservice\stocks_service\model\Stock.class
+com\pulsehub\stocksservice\stocks_service\StocksServiceApplication.class
+com\pulsehub\stocksservice\stocks_service\controllers\StocksController.class
+com\pulsehub\stocksservice\stocks_service\service\StocksAiService.class
+com\pulsehub\stocksservice\stocks_service\service\StocksService.class
