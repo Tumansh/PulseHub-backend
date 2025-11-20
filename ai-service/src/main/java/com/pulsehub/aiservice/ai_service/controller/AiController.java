@@ -3,7 +3,7 @@ package com.pulsehub.aiservice.ai_service.controller;
 import com.pulsehub.aiservice.ai_service.model.AiChatSession;
 import com.pulsehub.aiservice.ai_service.model.AiHistory;
 import com.pulsehub.aiservice.ai_service.service.AiService;
-import com.pulsehub.commonlib.common_lib.security.JwtUtil;
+import com.pulsehub.aiservice.ai_service.security.JwtUtil;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.pulsehub.commonlib.common_lib.security;
+package com.pulsehub.aiservice.ai_service.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
