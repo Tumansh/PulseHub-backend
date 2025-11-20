@@ -1,5 +1,0 @@
-com\pulsehub\weatherservice\weather_service\repo\CityRepository.class
-com\pulsehub\weatherservice\weather_service\controllers\WeatherController.class
-com\pulsehub\weatherservice\weather_service\WeatherServiceApplication.class
-com\pulsehub\weatherservice\weather_service\service\WeatherService.class
-com\pulsehub\weatherservice\weather_service\model\WeatherResponse.class

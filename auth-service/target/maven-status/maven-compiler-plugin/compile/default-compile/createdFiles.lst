@@ -1,9 +1,0 @@
-com\pulsehub\authservice\auth_service\controllers\AuthController$PasswordChangeRequest.class
-com\pulsehub\authservice\auth_service\service\AuthService.class
-com\pulsehub\authservice\auth_service\model\User.class
-com\pulsehub\authservice\auth_service\repo\UserRepository.class
-com\pulsehub\authservice\auth_service\controllers\AuthController.class
-com\pulsehub\authservice\auth_service\controllers\AuthController$AuthResponse.class
-com\pulsehub\authservice\auth_service\AuthServiceApplication.class
-com\pulsehub\authservice\auth_service\service\AuthService$AuthResponse.class
-com\pulsehub\authservice\auth_service\config\SecurityConfig.class

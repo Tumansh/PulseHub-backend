@@ -1,7 +1,0 @@
-com\pulsehub\aiservice\ai_service\repo\AiHistoryRepository.class
-com\pulsehub\aiservice\ai_service\repo\AiChatSessionRepository.class
-com\pulsehub\aiservice\ai_service\AiServiceApplication.class
-com\pulsehub\aiservice\ai_service\controller\AiController.class
-com\pulsehub\aiservice\ai_service\model\AiHistory.class
-com\pulsehub\aiservice\ai_service\service\AiService.class
-com\pulsehub\aiservice\ai_service\model\AiChatSession.class
