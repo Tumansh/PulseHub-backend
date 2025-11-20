@@ -1,0 +1,20 @@
+server:
+  port: ${PORT:8086}
+
+spring:
+  application:
+    name: diary-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/pulsehub_diary?useSSL=false&allowPublicKeyRetrieval=true
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+jwt:
+  secret: ${JWT_SECRET}

@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:8084}
+
+spring:
+  application:
+    name: weather-service
+
+openweathermap:
+  api:
+    key: ${WEATHER_API_KEY}

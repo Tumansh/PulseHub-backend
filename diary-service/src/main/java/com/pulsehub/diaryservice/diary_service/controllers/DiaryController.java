@@ -1,8 +1,9 @@
 package com.pulsehub.diaryservice.diary_service.controllers;
 
-import com.pulsehub.commonlib.common_lib.security.JwtUtil;
+
 import com.pulsehub.diaryservice.diary_service.model.DiaryEntry;
 import com.pulsehub.diaryservice.diary_service.repo.DiaryRepository;
+import com.pulsehub.diaryservice.diary_service.security.JwtUtil;
 import com.pulsehub.diaryservice.diary_service.service.DiaryService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -2,7 +2,7 @@ package com.pulsehub.authservice.auth_service.service;
 
 import com.pulsehub.authservice.auth_service.model.User;
 import com.pulsehub.authservice.auth_service.repo.UserRepository;
-import com.pulsehub.commonlib.common_lib.security.JwtUtil;
+import com.pulsehub.authservice.auth_service.security.JwtUtil;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +36,7 @@ public class AuthService {
 
     public AuthResponse login(User loginUser) {
         Optional<User> optionalUser = userRepository.findByEmail(loginUser.getEmail());
-        if (optionalUser.isEmpty()) {
+        if (!optionalUser.isPresent()) {
             throw new RuntimeException("Invalid credentials");
         }
 

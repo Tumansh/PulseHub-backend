@@ -1,7 +1,8 @@
 package com.pulsehub.expenseservice.expense_service.controller;
 
-import com.pulsehub.commonlib.common_lib.security.JwtUtil;
+
 import com.pulsehub.expenseservice.expense_service.model.Expense;
+import com.pulsehub.expenseservice.expense_service.security.JwtUtil;
 import com.pulsehub.expenseservice.expense_service.service.ExpenseService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

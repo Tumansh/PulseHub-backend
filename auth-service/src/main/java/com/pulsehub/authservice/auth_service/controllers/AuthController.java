@@ -2,7 +2,7 @@ package com.pulsehub.authservice.auth_service.controllers;
 
 import com.pulsehub.authservice.auth_service.model.User;
 import com.pulsehub.authservice.auth_service.repo.UserRepository;
-import com.pulsehub.commonlib.common_lib.security.JwtUtil;
+import com.pulsehub.authservice.auth_service.security.JwtUtil;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
@@ -40,7 +40,7 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody User loginUser) {
         Optional<User> optionalUser = userRepository.findByEmail(loginUser.getEmail());
-        if (optionalUser.isEmpty()) {
+        if (!optionalUser.isPresent()) {
             return ResponseEntity.status(401).body("{\"message\":\"Invalid credentials\"}");
         }
 
@@ -65,7 +65,7 @@ public class AuthController {
             String email = jwtUtil.extractEmail(token);
 
             Optional<User> optionalUser = userRepository.findByEmail(email);
-            if (optionalUser.isEmpty()) {
+            if (!optionalUser.isPresent()) {
                 return ResponseEntity.status(404).body("{\"message\":\"User not found\"}");
             }
 
