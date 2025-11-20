@@ -51,12 +51,6 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
-		<!-- common-lib dependency (your shared jwt util) -->
-		<dependency>
-			<groupId>com.pulsehub.commonlib</groupId>
-			<artifactId>common-lib</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		<!-- HTTP client for calling external LLMs (optional) -->
 		<dependency>
 			<groupId>org.apache.httpcomponents.client5</groupId>
