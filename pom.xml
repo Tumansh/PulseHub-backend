@@ -19,7 +19,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ai-service</module>
         <module>auth-service</module>
         <module>expense-service</module>
         <module>diary-service</module>
