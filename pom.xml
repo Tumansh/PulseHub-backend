@@ -19,7 +19,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>common-lib</module>
         <module>ai-service</module>
         <module>auth-service</module>
         <module>expense-service</module>
