@@ -93,7 +93,7 @@ Controller → Service → Repository
 <h3>1️⃣ Clone the Repository</h3>
 
 <pre>
-git clone https://github.com/yourusername/pulsehub-backend.git
+git clone https://github.com/Tumansh/pulsehub-backend.git
 cd pulsehub-backend
 </pre>
 
